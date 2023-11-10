@@ -35,6 +35,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.9
 
 dev_dependencies:
   flutter_test:
@@ -52,6 +53,28 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+
+  assets:
+    - assets/svg_icons/bell-04.svg
+    - assets/svg_icons/chevron-right.svg
+    - assets/svg_icons/home-01.svg
+    - assets/svg_icons/shopping-cart-03.svg
+    - assets/svg_icons/marker-pin-02.svg
+    - assets/svg_icons/bank-note-01.svg
+    - assets/svg_icons/shopping-bag-03.svg
+    - assets/svg_icons/coins-stacked-02.svg
+    - assets/svg_icons/receipt.svg
+    - assets/svg_icons/calendar.svg
+    - assets/svg_icons/file-plus-02.svg
+    - assets/svg_icons/users-01.svg
+    - assets/svg_icons/plus-circle.svg
+    - assets/svg_icons/package-plus.svg
+    - assets/svg_icons/chevron-left.svg
+    
+  fonts:
+    - family: NunitoSans
+      fonts:
+        - asset: assets/fonts/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
